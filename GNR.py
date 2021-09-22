@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt 
 import numpy as np
 from PIL import Image
-im=Image.open("GNR.jpeg")
+im=Image.open("GNR.jpg")
 pxl=list(im.getdata())
 print ("pxl")
 columnsize,rowsize=im.size
